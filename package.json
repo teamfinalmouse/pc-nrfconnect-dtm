@@ -1,6 +1,6 @@
 {
     "name": "finalmouse-dtm",
-    "version": "3.1.2",
+    "version": "3.1.4",
     "displayName": "Finalmouse DTM",
     "description": "RF PHY testing of Finalmouse devices",
     "homepage": "https://github.com/teamfinalmouse/pc-nrfconnect-dtm",
@@ -16,7 +16,7 @@
     "nrfConnectForDesktop": {
         "nrfutil": {
             "device": [
-                "2.17.5"
+                "2.19.3"
             ]
         },
         "html": "dist/index.html",
@@ -45,7 +45,7 @@
         "prepare": "husky install"
     },
     "devDependencies": {
-        "@nordicsemiconductor/pc-nrfconnect-shared": "^246.0.0",
+        "@nordicsemiconductor/pc-nrfconnect-shared": "^252.0.0",
         "@testing-library/user-event": "^13.1.9",
         "chart.js": "^4.0.1",
         "chartjs-plugin-datalabels": "2.2.0",
